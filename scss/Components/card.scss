@@ -1,0 +1,17 @@
+.card{
+    margin: 20px;
+    border-radius: 20px;
+    border: 1px solid #678983;
+    padding: 0;
+    background-color: #678983;
+    color: white;
+    &-img{
+        margin: 0;
+        border-radius: 20px 20px 0 0;
+    }
+    &:hover{
+        transform: scale(1.02);
+        transition-duration: 0.1s;
+        cursor: pointer;
+    }
+}

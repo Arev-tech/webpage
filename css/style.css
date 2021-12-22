@@ -1,0 +1,49 @@
+.no-link, .no-link:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.card {
+  margin: 20px;
+  border-radius: 20px;
+  border: 1px solid #678983;
+  padding: 0;
+  background-color: #678983;
+  color: white;
+}
+.card-img {
+  margin: 0;
+  border-radius: 20px 20px 0 0;
+}
+.card:hover {
+  transform: scale(1.02);
+  transition-duration: 0.1s;
+  cursor: pointer;
+}
+
+.navbar-dark {
+  background-color: #041C32;
+}
+
+.jumbotron {
+  background-color: #678983;
+  color: #E6DDC4;
+}
+
+.btn {
+  color: #678983;
+  background-color: #F0E9D2;
+}
+.btn-social {
+  border-radius: 50%;
+}
+.btn-dropdown {
+  background-color: #343a40;
+  color: rgba(255, 255, 255, 0.5);
+}
+.btn-dropdown:hover {
+  background-color: #343a40;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/*# sourceMappingURL=style.css.map */

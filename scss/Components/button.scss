@@ -1,0 +1,15 @@
+.btn{
+    color: #678983;
+    background-color: #F0E9D2;
+    &-social{
+        border-radius: 50%;
+    }
+    &-dropdown{
+        background-color: #343a40;
+        color: rgba(255,255,255,.5);
+        &:hover{
+            background-color: #343a40;
+            color: rgba(255,255,255,.5);
+        }
+    }
+}
