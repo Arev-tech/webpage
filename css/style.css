@@ -7,6 +7,10 @@
   color: #678983;
 }
 
+i {
+  padding: 5px;
+}
+
 .card {
   margin: 20px;
   border-radius: 20px;
@@ -27,6 +31,16 @@
 
 .navbar-dark {
   background-color: #041C32;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-contact {
+  text-align: left;
 }
 
 .jumbotron {
